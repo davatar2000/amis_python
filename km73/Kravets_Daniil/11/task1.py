@@ -1,5 +1,4 @@
-print("Для корректной работы программы вводите i=0")
-def func(list, t, i):
+def func(list, t, i = 0):
     if (t <= 0):
         return
     list[i] = float(list[i])
